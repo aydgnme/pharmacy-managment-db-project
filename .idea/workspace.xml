@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a91366a6-b7d8-45c6-a7bd-9735d1ffdf9f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fBpDea5Wcuf7ja1XxdY6huLMcU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Dashboard.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.Login.executor": "Run",
+    "Application.OracleConnectionExample.executor": "Run",
+    "Maven.Pharmacy-Management-System [install].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "database.data.extractors.current.export.id": "JSON-Groovy.json.groovy",
+    "database.data.extractors.current.id": "JSON-Groovy.json.groovy",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/aydgnme/Courses/DB/Pharmacy-Management-System/src/main/resources/aydgn/me/pharmacymanagementsystem",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ],
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "sqlite",
+      "oracle"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/aydgn/me/pharmacymanagementsystem" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="aydgn.me.pharmacymanagementsystem" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="aydgn.me.pharmacymanagementsystem" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a91366a6-b7d8-45c6-a7bd-9735d1ffdf9f" name="Changes" comment="" />
+      <created>1713284207711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713284207711</updated>
+      <workItem from="1713284208922" duration="6672000" />
+      <workItem from="1713363003484" duration="1815000" />
+      <workItem from="1713368385162" duration="2702000" />
+      <workItem from="1713371157643" duration="2184000" />
+      <workItem from="1713374384363" duration="7103000" />
+      <workItem from="1713384784634" duration="10641000" />
+      <workItem from="1713416604675" duration="8266000" />
+      <workItem from="1713658545298" duration="48000" />
+      <workItem from="1714387502121" duration="146000" />
+      <workItem from="1714387655662" duration="36000" />
+      <workItem from="1714387725661" duration="886000" />
+      <workItem from="1714388884172" duration="227000" />
+      <workItem from="1714389223903" duration="266000" />
+      <workItem from="1716208770107" duration="6324000" />
+      <workItem from="1716215200902" duration="5005000" />
+      <workItem from="1716220979598" duration="785000" />
+      <workItem from="1716222087037" duration="1159000" />
+      <workItem from="1716223274942" duration="1714000" />
+      <workItem from="1716225733636" duration="997000" />
+      <workItem from="1716226738053" duration="117000" />
+      <workItem from="1716226861756" duration="2246000" />
+      <workItem from="1716230267519" duration="6493000" />
+      <workItem from="1716292756377" duration="1054000" />
+      <workItem from="1716527004893" duration="190000" />
+      <workItem from="1716528322071" duration="747000" />
+      <workItem from="1716551018687" duration="1843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="31bc6b21-ac7d-4606-9c6f-23c1af3bf8f1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="git remote add origin https://github.com/ioanaydgn/pharmacy-managment-db-project.git" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="31bc6b21-ac7d-4606-9c6f-23c1af3bf8f1">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="git remote add origin https://github.com/ioanaydgn/pharmacy-managment-db-project.git" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
