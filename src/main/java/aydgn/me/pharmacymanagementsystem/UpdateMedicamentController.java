@@ -51,7 +51,7 @@ public class UpdateMedicamentController {
             return;
         }
 
-        String sql = "SELECT * FROM medicament WHERE medicament_id = ?";
+        String sql = "SELECT * FROM medicament_AM WHERE medicament_id = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, medicamentID);
@@ -84,7 +84,7 @@ public class UpdateMedicamentController {
             return;
         }
 
-        String sql = "UPDATE medicament SET name = ?, company_name = ?, quantity = ?, price_per_unit = ? WHERE medicament_id = ?";
+        String sql = "UPDATE medicament_AM SET name = ?, company_name = ?, quantity = ?, price_per_unit = ? WHERE medicament_id = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, name);

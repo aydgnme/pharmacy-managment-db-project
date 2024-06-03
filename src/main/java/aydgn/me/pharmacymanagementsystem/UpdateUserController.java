@@ -68,7 +68,7 @@ public class UpdateUserController {
         }
 
         // Build the SQL update query dynamically based on non-empty fields
-        StringBuilder sqlBuilder = new StringBuilder("UPDATE app_user SET ");
+        StringBuilder sqlBuilder = new StringBuilder("UPDATE app_user_AM SET ");
         boolean firstField = true;
 
         if (userRole != null && !userRole.isEmpty()) {
@@ -161,7 +161,7 @@ public class UpdateUserController {
         int checkUsernameExist = 0;
         try {
             Connection connection = DatabaseConnection.getConnection();
-            String sql = "SELECT COUNT(*) FROM app_user WHERE username = ?";
+            String sql = "SELECT COUNT(*) FROM app_user_AM WHERE username = ?";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, usernameField.getText());
             ResultSet resultSet = statement.executeQuery();

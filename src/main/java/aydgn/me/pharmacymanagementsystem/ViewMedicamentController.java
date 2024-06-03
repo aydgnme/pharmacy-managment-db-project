@@ -67,7 +67,7 @@ public class ViewMedicamentController {
 
     private void loadMedicamentDataFromDatabase() {
         List<Medicament> medicamentList = new ArrayList<>();
-        String sql = "SELECT * FROM medicine";
+        String sql = "SELECT * FROM medicine_AM";
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);

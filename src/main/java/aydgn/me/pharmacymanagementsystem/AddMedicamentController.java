@@ -54,7 +54,7 @@ public class AddMedicamentController {
 
         try {
             Connection connection = DatabaseConnection.getConnection();
-            String sql = "INSERT INTO medicine (name, description, manufacturer, expiry_date, price ,quantity) VALUES (?, ?, ?, ?, ?, ?)";
+            String sql = "INSERT INTO medicine_AM (name, description, manufacturer, expiry_date, price ,quantity) VALUES (?, ?, ?, ?, ?, ?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, medicamentName);
             preparedStatement.setString(2, description);

@@ -78,7 +78,7 @@ public class ViewUserController {
 
     private void loadUserDataFromDatabase() {
         List<User> userList = new ArrayList<>();
-        String sql = "SELECT * FROM app_user";
+        String sql = "SELECT * FROM app_user_AM";
 
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);

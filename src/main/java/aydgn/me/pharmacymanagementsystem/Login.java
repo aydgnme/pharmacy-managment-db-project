@@ -46,7 +46,7 @@ public class Login extends Application {
 
     private User authenticateUser(String username, String password) {
         Connection connection = DatabaseConnection.getConnection();
-        String query = "SELECT * FROM app_user WHERE username = ? AND password = ?";
+        String query = "SELECT * FROM app_user_AM WHERE username = ? AND password = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(query);
             preparedStatement.setString(1, username);

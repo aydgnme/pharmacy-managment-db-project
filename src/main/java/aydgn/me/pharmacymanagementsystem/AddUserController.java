@@ -69,7 +69,7 @@ public class AddUserController {
         // Insert user into database
         try {
             Connection connection = DatabaseConnection.getConnection();
-            String sql = "INSERT INTO app_user (user_role, name, dob, mobile_number, email, username, password, address) " +
+            String sql = "INSERT INTO app_user_AM (user_role, name, dob, mobile_number, email, username, password, address) " +
                     "VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, userRole);

@@ -107,7 +107,7 @@ public class SellMedicineController {
     private void loadDataFromDatabase() {
         connection = DatabaseConnection.getConnection();
 
-        String query = "SELECT medicineID, name FROM medicine";
+        String query = "SELECT medicineID, name FROM medicine_AM";
         try (PreparedStatement pstmt = connection.prepareStatement(query);
              ResultSet rs = pstmt.executeQuery()) {
 

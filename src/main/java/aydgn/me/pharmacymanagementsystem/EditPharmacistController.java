@@ -52,7 +52,7 @@ public class EditPharmacistController {
         int checkUsernameExist = 0;
         try {
             Connection connection = DatabaseConnection.getConnection();
-            String sql = "SELECT COUNT(*) FROM app_user WHERE username = ?";
+            String sql = "SELECT COUNT(*) FROM app_user_AM WHERE username = ?";
             PreparedStatement statement = connection.prepareStatement(sql);
             statement.setString(1, username);
             ResultSet resultSet = statement.executeQuery();
