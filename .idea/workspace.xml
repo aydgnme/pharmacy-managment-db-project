@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a91366a6-b7d8-45c6-a7bd-9735d1ffdf9f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db5d068f-c250-4eb9-b678-d808037afa85.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db5d068f-c250-4eb9-b678-d808037afa85.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/db5d068f-c250-4eb9-b678-d808037afa85/storage_v2/_src_/schema/HR.CgkAAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/db5d068f-c250-4eb9-b678-d808037afa85/storage_v2/_src_/schema/HR.CgkAAA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/identifier.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/AddMedicamentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/AddMedicamentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/AddUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/AddUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/EditPharmacistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/EditPharmacistController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/EditProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/EditProfileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/SellMedicineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/SellMedicineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/UpdateMedicamentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/UpdateMedicamentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/UpdateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/UpdateUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/ViewMedicamentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/ViewMedicamentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/ViewUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aydgn/me/pharmacymanagementsystem/ViewUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/aydgn/me/pharmacymanagementsystem/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aydgn/me/pharmacymanagementsystem/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/aydgn/me/pharmacymanagementsystem/sellMedicine.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/aydgn/me/pharmacymanagementsystem/sellMedicine.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Application.Dashboard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DatabaseConnection.executor&quot;: &quot;Run&quot;,
     &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.Login.executor&quot;: &quot;Run&quot;,
     &quot;Application.OracleConnectionExample.executor&quot;: &quot;Run&quot;,
@@ -148,7 +146,9 @@
       <workItem from="1716551018687" duration="1975000" />
       <workItem from="1716872630707" duration="1958000" />
       <workItem from="1717269741957" duration="1493000" />
-      <workItem from="1717414975257" duration="598000" />
+      <workItem from="1717414975257" duration="7926000" />
+      <workItem from="1717527491658" duration="711000" />
+      <workItem from="1717582803326" duration="4553000" />
     </task>
     <servers />
   </component>

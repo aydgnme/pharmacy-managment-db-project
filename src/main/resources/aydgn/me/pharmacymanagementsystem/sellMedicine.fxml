@@ -36,15 +36,15 @@
             </TextField>
             <TableView fx:id="medicineTableView" prefHeight="532.0" prefWidth="340.0">
                <columns>
-                  <TableColumn fx:id="medicineIDColumn" prefWidth="95.0" text="Medicine ID" />
-                  <TableColumn fx:id="medicineNameColumn" prefWidth="186.0" text="Name" />
+                  <TableColumn fx:id="medicineIDColumn" prefWidth="117.0" text="Medicine  Barcode" />
+                  <TableColumn fx:id="medicineNameColumn" prefWidth="164.0" text="Name" />
                </columns>
             </TableView>
          </children>
       </VBox>
       <VBox layoutX="571.0" layoutY="129.0" prefHeight="274.0" prefWidth="232.0">
          <children>
-            <Label text="Medicine ID">
+            <Label text="Medicine Barcode">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>

@@ -1,34 +1,34 @@
-// DatabaseConnection.java
 package aydgn.me.pharmacymanagementsystem;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class DatabaseConnection {
-    private static Connection connection;
+
+    private static final String URL = "jdbc:oracle:thin:@172.20.1.39:1521:Ora09";
+    private static final String USER = "hr";
+    private static final String PASSWORD = "oracletest";
 
     public static Connection getConnection() {
-        if (connection == null) {
-            try {
-                // Load Oracle JDBC Driver
-                Class.forName("oracle.jdbc.driver.OracleDriver");
+        Connection connection = null;
+        try {
+            // Set the timezone to UTC
+            Properties props = new Properties();
+            props.setProperty("user", USER);
+            props.setProperty("password", PASSWORD);
+            props.setProperty("oracle.jdbc.timezoneAsRegion", "false");
+            props.setProperty("oracle.jdbc.defaultNChar", "true");
+            props.setProperty("oracle.jdbc.thinLogonCapability", "true");
 
-                // Connection URL
-                String url = "jdbc:oracle:thin:@172.20.1.39:1521:Ora09";
+            // Set the JVM timezone to UTC
+            System.setProperty("user.timezone", "UTC");
 
-                // Username and Password
-                String username = "hr";
-                String password = "oracletest";
+            connection = DriverManager.getConnection(URL, props);
 
-                // Create Connection
-                connection = DriverManager.getConnection(url, username, password);
-                System.out.println("Database Connection Success");
-            } catch (SQLException e) {
-                System.err.println("SQL Exception: " + e.getMessage());
-            } catch (ClassNotFoundException e) {
-                System.err.println("Class Not Found Exception: " + e.getMessage());
-            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
         return connection;
     }
